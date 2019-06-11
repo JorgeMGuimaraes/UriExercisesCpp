@@ -1,14 +1,16 @@
-//1012
 #include <iostream>
-#include <iomanip>
-#include <string>
+//#include <iomanip>
+//#include <string>
+
+// 2862
 int main() {
-	double a, b, c;
-	std::cin >> a >> b >> c;
-	std::cout << "TRIANGULO: " << std::fixed << std::setprecision(3) << (a * c) / 2.0 << std::endl;
-	std::cout << "CIRCULO: " << std::fixed << std::setprecision(3) << 3.14159 * c * c << std::endl;
-	std::cout << "TRAPEZIO: " << std::fixed << std::setprecision(3) << (a + b) * c / 2.0 << std::endl;
-	std::cout << "QUADRADO: " << std::fixed << std::setprecision(3) << b * b << std::endl;
-	std::cout << "RETANGULO: " << std::fixed << std::setprecision(3) << a * b << std::endl;
+	int casos;
+	std::cin >> casos;
+	for (int i = 0; i < casos; i++) {
+		int valor;
+		std::cin >> valor;
+			if(valor > 8000){ std::cout << "Mais de 8000!\n"; }
+			else { std::cout << "Inseto!\n"; }
+	}
 	return 0;
 }
