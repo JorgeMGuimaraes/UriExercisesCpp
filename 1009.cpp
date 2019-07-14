@@ -1,6 +1,7 @@
 //1009
 #include <iostream>
 #include <iomanip>
+#include <string>
 int main1009() {
 	std::string vendedor;
 	double salarioFixo, vendas;

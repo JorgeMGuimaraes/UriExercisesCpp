@@ -1,16 +1,40 @@
 #include <iostream>
-//#include <iomanip>
-//#include <string>
+#include <iomanip>
+#include <string>
+#include <set>
+#include <algorithm>
+// 2690
+int qdadeResultados(std::set<int> vals) {
+	return 6 - (int)vals.size();
+}
 
-// 2862
 int main() {
-	int casos;
-	std::cin >> casos;
-	for (int i = 0; i < casos; i++) {
-		int valor;
-		std::cin >> valor;
-			if(valor > 8000){ std::cout << "Mais de 8000!\n"; }
-			else { std::cout << "Inseto!\n"; }
+	std::string saidas[7] = { "azar", "azar", "azar", "terno", "quadra", "quina", "sena" };
+	std::set<std::string> flavinho, sorteados;
+	for (int i = 0; i < 7; i++) {
+		std::string a;
+		std::cin >> a;
+		flavinho.insert(a);
 	}
+	for (int i = 0; i < 7; i++) {
+		std::string a;
+		std::cin >> a;
+		sorteados.insert(a);
+	}
+	std::string c1;
+	auto c = std::set_difference(flavinho.begin(), flavinho.end(), sorteados.begin(), sorteados.end(), c1);
+	std::cout << c << c1;
 	return 0;
 }
+/*
+# subs
+def qdadeSorteados(vals):
+	return 6 - len(vals)
+
+# processos
+saidas      = ["azar", "azar", "azar", "terno", "quadra", "quina", "sena"]
+flavinho    = set(map(int, input().split()))
+sorteados   = set(map(int, input().split()))
+print(saidas[qdadeSorteados(flavinho.difference(sorteados))])
+
+*/
