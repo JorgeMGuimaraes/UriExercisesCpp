@@ -89,7 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -166,6 +166,12 @@
     <ClCompile Include="1013.cpp" />
     <ClCompile Include="1014.cpp" />
     <ClCompile Include="1015.cpp" />
+    <ClCompile Include="1016.cpp" />
+    <ClCompile Include="1017.cpp" />
+    <ClCompile Include="1018.cpp" />
+    <ClCompile Include="1019.cpp" />
+    <ClCompile Include="1020.cpp" />
+    <ClCompile Include="1021.cpp" />
     <ClCompile Include="1144.cpp" />
     <ClCompile Include="2682.cpp" />
     <ClCompile Include="UriExercisesCpp.cpp" />
