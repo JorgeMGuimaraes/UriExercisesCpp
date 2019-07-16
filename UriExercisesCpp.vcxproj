@@ -172,7 +172,10 @@
     <ClCompile Include="1019.cpp" />
     <ClCompile Include="1020.cpp" />
     <ClCompile Include="1021.cpp" />
+    <ClCompile Include="1022.cpp" />
     <ClCompile Include="1144.cpp" />
+    <ClCompile Include="1174.cpp" />
+    <ClCompile Include="2547.cpp" />
     <ClCompile Include="2682.cpp" />
     <ClCompile Include="UriExercisesCpp.cpp" />
   </ItemGroup>
