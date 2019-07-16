@@ -174,7 +174,16 @@
     <ClCompile Include="1021.cpp" />
     <ClCompile Include="1022.cpp" />
     <ClCompile Include="1144.cpp" />
+    <ClCompile Include="1172.cpp" />
+    <ClCompile Include="1173.cpp" />
     <ClCompile Include="1174.cpp" />
+    <ClCompile Include="1175.cpp" />
+    <ClCompile Include="1176.cpp" />
+    <ClCompile Include="1177.cpp" />
+    <ClCompile Include="1178.cpp" />
+    <ClCompile Include="1179.cpp" />
+    <ClCompile Include="1180.cpp" />
+    <ClCompile Include="2310.cpp" />
     <ClCompile Include="2547.cpp" />
     <ClCompile Include="2682.cpp" />
     <ClCompile Include="UriExercisesCpp.cpp" />

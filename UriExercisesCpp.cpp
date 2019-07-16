@@ -1,10 +1,14 @@
-//1174
+// 1175
 #include <iostream>
 
 int main() {
-	double valor {};
-	for(int i = 0; i < 100; i++) {
-		scanf("%lf", &valor);
-		if(valor <= 10) { printf("A[%d] = %.1f\n", i, valor); }
+	const int LIMITE { 20 };
+	int vetor[LIMITE] {};
+	for(int i = 0; i < LIMITE; i++) {
+		int val {};
+		scanf("%d", &val);
+		vetor[LIMITE - 1 - i] = val;
 	}
+	for(int i = 0; i < LIMITE; i++) { printf("N[%d] = %d\n", i, vetor[i]); }
+	return 0;
 }
