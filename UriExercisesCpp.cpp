@@ -1,14 +1,12 @@
-// 1175
+// 2765
 #include <iostream>
+#include <string>
 
 int main() {
-	const int LIMITE { 20 };
-	int vetor[LIMITE] {};
-	for(int i = 0; i < LIMITE; i++) {
-		int val {};
-		scanf("%d", &val);
-		vetor[LIMITE - 1 - i] = val;
-	}
-	for(int i = 0; i < LIMITE; i++) { printf("N[%d] = %d\n", i, vetor[i]); }
+	std::string line {};
+	std::getline(std::cin, line);
+	int pos = line.find(',');
+	line.replace(pos, 1, "\n");
+	std::cout << line << "\n";
 	return 0;
 }

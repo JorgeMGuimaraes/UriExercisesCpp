@@ -1,7 +1,7 @@
 // 1175
 #include <iostream>
 
-int main() {
+int main1175() {
 	const int LIMITE { 20 };
 	int vetor[LIMITE] {};
 	for(int i = 0; i < LIMITE; i++) {

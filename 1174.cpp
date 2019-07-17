@@ -7,4 +7,5 @@ int main1174() {
 		scanf("%lf", &valor);
 		if(valor <= 10) { printf("A[%d] = %.1f\n", i, valor); }
 	}
+	return 0;
 }

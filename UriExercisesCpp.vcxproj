@@ -186,6 +186,7 @@
     <ClCompile Include="2310.cpp" />
     <ClCompile Include="2547.cpp" />
     <ClCompile Include="2682.cpp" />
+    <ClCompile Include="2765.cpp" />
     <ClCompile Include="UriExercisesCpp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
